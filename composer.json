@@ -1,0 +1,23 @@
+{
+    "name": "vesh/php-pusher",
+    "description": "PHP Core pusher",
+    "authors": [
+        {
+            "name": "Veshraj Joshi",
+            "email": "veshraj.joshi1@gmail.com"
+        }
+    ],
+    "require": {
+        "pusher/pusher-php-server": "^4.1"
+    },
+    "autoload": {
+        "classmap": [],
+        "psr-4": {
+            "Config\\": "config/",
+            "Classes\\": "classes/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
